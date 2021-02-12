@@ -17,7 +17,7 @@ def nitro():
 
 @app.route('/nevergonnagiveyouup')
 def lol():
-    return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    return redirect("https://ts.lmg.gg/")
 
 if __name__ == '__main__':
     app.run()
