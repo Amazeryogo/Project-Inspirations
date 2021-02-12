@@ -11,5 +11,9 @@ def hello_world():
     return render_template('index.html',ip=ip_address,picture=picture)
 
 
+@app.route('/discord-nitro')
+def nitro():
+    return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+
 if __name__ == '__main__':
     app.run()
