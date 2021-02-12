@@ -1,1 +1,1 @@
-web: gunicorn project-inspirations:app
+web: gunicorn app:app
