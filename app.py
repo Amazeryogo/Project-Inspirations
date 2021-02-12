@@ -16,7 +16,7 @@ def nitro():
     return redirect("https://project-inspirations.herokuapp.com/nevergonnagiveyouup")
 
 @app.route('/nevergonnagiveyouup')
-def lol:
+def lol():
     return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 if __name__ == '__main__':
