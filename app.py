@@ -1,5 +1,4 @@
-from flask import Flask,render_template,request,redirect
-from hashlib import md5
+from flask import Flask,render_template,request
 
 app = Flask(__name__)
 
